@@ -13,10 +13,14 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.poo.ui.theme.POOTheme
 
-class Person(var nombre: String, var passport: String? = null) {
+open class Person(var name: String, var passport: String? = null) {
     var alive: Boolean = true;
 
     fun die(){
         alive = false
     }
+}
+
+class Athlete(name: String, passport: String?, var sport: String): Person(name, passport){
+
 }

@@ -16,4 +16,7 @@ class Pokemon  (private var name:String = "Pok",
 
     fun setName(name: String){this.name = name}
     fun setAttackPower(attackPower: Float){this.attackPower = attackPower}
+    fun setLife(life: Float){this.life = life}
+
+    fun cure(){this.life = 100f}
 }
