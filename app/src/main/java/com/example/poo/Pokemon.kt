@@ -9,4 +9,11 @@ class Pokemon  (private var name:String = "Pok",
         this.attackPower = attackPower
         this.life = 100f
     }
+
+    fun getName(): String{return this.name}
+    fun getAttackPower(): Float{return this.attackPower}
+    fun getLife(): Float{return this.life}
+
+    fun setName(name: String){this.name = name}
+    fun setAttackPower(attackPower: Float){this.attackPower = attackPower}
 }
