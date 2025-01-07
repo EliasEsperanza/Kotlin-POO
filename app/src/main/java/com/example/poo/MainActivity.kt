@@ -21,8 +21,5 @@ class MainActivity : ComponentActivity() {
         var eli: Person = Person("Eli","Salvadorean")
         println(eli.nombre)
 
-        //This is a comment
-
-
     }
 }
